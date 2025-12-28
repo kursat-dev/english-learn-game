@@ -2,7 +2,8 @@
 
 English Master is a professional, vibrant, and interactive web application designed to help students master English grammar and vocabulary at A2 and B1 levels. It turns learning into an adventure with instant feedback and dynamic sessions.
 
-![App Preview](https://via.placeholder.com/800x400?text=English+Master+Preview)
+![App Screen] <img width="747" height="596" alt="Ekran Resmi 2025-12-22 13 53 28" src="https://github.com/user-attachments/assets/f749cef0-3ebe-41f0-9a96-64c24681383e" />
+
 
 ## 🚀 Features
 
