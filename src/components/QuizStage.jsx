@@ -1,6 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const QuizStage = ({ data, onAnswer }) => {
+    const [shuffledOptions, setShuffledOptions] = useState([]);
+
+    useEffect(() => {
+        if (data && data.options) {
+            setShuffledOptions([...data.options].sort(() => Math.random() - 0.5));
+        }
+    }, [data]);
+
     return (
         <div className="quiz-stage">
             <p>{data.instruction}</p>
@@ -11,7 +19,7 @@ const QuizStage = ({ data, onAnswer }) => {
                 <h3>{data.question}</h3>
             </div>
             <div className="options-list">
-                {data.options.map((option, index) => (
+                {shuffledOptions.map((option, index) => (
                     <button
                         key={index}
                         className="option-btn"
