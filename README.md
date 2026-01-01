@@ -38,7 +38,7 @@ src/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/english-learn-game.git
+   git clone https://github.com/kursat-dev/english-learn-game.git
    ```
 2. **Install dependencies**:
    ```bash
